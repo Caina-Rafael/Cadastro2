@@ -1,21 +1,445 @@
+
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en"> 
 <head>
-	<title>Cadastro 3</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<title>Vinicius's Resume</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <script src="main.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
 
-	
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hi, I'm Vinicius Catureba!</h1>
+            
+            <p>and this page has been viewed <a id="counter"></a> times</p> 
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/vinicius-catureba-bigao/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/ViniCatureba"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
 
 
-	<form class="box">
-		<h1>Login</h1>
-		<input  class="preencher" type="text" name="Usuário" placeholder="Usuário">
-		<input class="preencher" type="text" name="Senha" placeholder="Senha">
-		<input class="btn" type="submit" name="Logar" value="logar">
-	</form>
-	
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/me.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>ABOUT ME</h2>
+
+            <p> Hey! I'm Vinicius Catureba Bigão, a 21-year-old aspiring professional in the field of <strong>cloud and cybersecurity.</strong> Currently residing in São Paulo, Brazil, I am deeply passionate about these domains. In addition to my career pursuits, I love spending quality time with my girlfriend, close friends and family! I also enjoy reading books, and playing basketball</p>
+               
+         </br>
+      </br>
+      
+            
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            
+            
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>CCNA Module 1: Introduction to Networks</h3>
+                  <p class="info"><em class="date">March 2024</em></p>
+
+               </div>
+
+            </div> <!-- item end --> 
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AZ-900: Azure Fundamentals </h3>
+                  <p class="info"><em class="date">December 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>SC-900: Microsoft Security, Compliance, and Identity Fundamentals </h3>
+                  <p class="info"><em class="date">October 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AWS Certified Cloud Practitioner</h3>
+                  <p class="info"><em class="date">August 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Foundations of Cybersecurity, Google </h3>
+                  <p class="info"><em class="date">August 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->    
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Oracle Cloud Infrastructure 2023 Certified Foundations Associate</h3>
+                  <p class="info"><em class="date">July 2023</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+
+
+                  <div class="row item">
+
+                     <div class="twelve columns">
+
+                  <h3>Bauducco</h3>
+                  <p class="info">IT Intern <span>&bull;</span> <em class="date">February 2024 - at the moment</em></p>
+
+                  <p>
+                     <li>Support the CTO to introduce the usage of AI in the company (Microsoft Copilot)</li>
+                     <li>Assist the CTO with IT team skill management.</li>
+                     <li>Dashboards development (Power BI)</li>  
+                     <li>Suport on monitoring FinOps related to AZURE</li>
+                     <li>Assist the CTO in managing the communication of the IT area</li>
+                     <li>Support projects and improvements related to SAP</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+                  <div class="row item">
+
+                     <div class="twelve columns">
+      
+                        <h3>Grupo Qualiconsig</h3>
+                        <p class="info">DBA Jr<span>&bull;</span> <em class="date">November 2023 - December 2023</em></p>
+      
+                        <p>
+                        <li>Create and maintain databases for the company's "Digital" project</li>
+                        <li>Process automation</li>
+                        <li>Data extraction for strategy analysis</li>
+                        <li>Dashboards development</li>
+                        </p>
+      
+                     </div>
+      
+                  </div> <!-- item end -->
+
+
+                  <div class="row item">
+
+                     <div class="twelve columns">
+
+                  <h3>Edenred</h3>
+                  <p class="info">PMO Intern <span>&bull;</span> <em class="date">June 2023 - November 2023</em></p>
+
+                  <p>
+                     <li>Experience in cloud migration projects (Azure and AWS) and infrastructure as a project manager</li>
+                     <li>Support in project creation and assistance in the project creation process</li>
+                     <li>Data analysis  (Power BI)</li>
+                     <li>Use of  JIRA, MS Project, Excel e Powerpoint to project management</li>
+                     <li>Participation in international projects (mainly in Mexico, in Spanish and English)</li>
+                     <li>KPIs</li>
+                     <li>Agile, waterfall, hybrid, Kanban, and lean methodologies</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Distribuidora de Bananas Fabio</h3>
+                  <p class="info">Sales Assistant<span>&bull;</span> <em class="date">April 2021 - June 2023</em></p>
+
+                  <p>
+                  <li>Pre and after sales support</li>
+                  <li>Client support</li>
+                  <li>Price negotiation</li>
+                  <li>Logistics</li>
+                  <li>IT Support</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+       <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <br><br>
+                  <p>
+                  <li>Azure</li>
+                  <li>AWS</li>
+                  <li>Python</li>
+                  <li>Golang</li>
+                  <li>Cybersecurity</li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Languages</span></h1>
+
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <br><br>
+                  <p>
+                  <li>English - <strong>Advanced</strong></li>
+                  <li>Spanish - <strong>Intermadiate</strong></li>
+                  <li>Portuguese - <strong>Native</strong></li>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Carrer Plan</span></h1>
+
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <br><br>
+                  <img src="images/roadmap.png"/>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+            
+
+
+
+            
+
+               
+
+            
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Skills -->
+
+
+      
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://linkedin.com/in/gwyneth-pena"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/madebygps/cgc-azure-resume"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
